@@ -1,0 +1,76 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-image: url("bki2.jpg");
+}
+
+
+
+.headline {
+    color: green;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.xlink {
+    cursor: crosshair;
+    color: cyan;
+}
+
+.hlink {
+    cursor: help;
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: rgb(26, 26, 9);
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background: #01120e;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("bki2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+aside a,
+aside a:link,
+aside a:visited,
+aside a:hover,
+aside a:active {
+    color: black;
+}
